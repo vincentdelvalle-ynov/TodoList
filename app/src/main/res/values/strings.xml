@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TodoList</string>
+    <string name="label_save">SAVE</string>
+    <string name="label_add">ADD</string>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/nameView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/isDoneView"
+        android:layout_alignBottom="@+id/isDoneView"
+        android:layout_toStartOf="@+id/isDoneView"
+        android:layout_alignParentStart="true"
+        android:gravity="center_vertical"
+        android:padding="8dp"
+        />
+
+    <ImageView
+        android:id="@+id/isDoneView"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/ic_done"
+        />
+
+</RelativeLayout>
